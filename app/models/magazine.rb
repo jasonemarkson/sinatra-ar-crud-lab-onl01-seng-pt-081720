@@ -1,6 +1,4 @@
-#Placeholder for a model
-
-class Article < ActiveRecord::Base
+class Magazine < ActiveRecord::Base
 
     attr_accessor :title, :content
         
