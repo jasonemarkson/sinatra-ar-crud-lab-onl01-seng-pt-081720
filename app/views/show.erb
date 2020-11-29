@@ -1,0 +1,9 @@
+<form method="POST" action="/articles/new">
+
+<%Article.all.find do |a|%>
+
+<p>Title: <%= a.title %> </p> 
+<p>Content: <%= a.content %> </p> 
+
+<% end %>
+</form>
