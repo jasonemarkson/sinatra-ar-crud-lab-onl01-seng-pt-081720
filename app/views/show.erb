@@ -1,9 +1,3 @@
-<form method="POST" action="/articles/new">
+<form method="POST" action="/articles/#{Article.last.id}">
 
-<%Article.all.find do |a|%>
-
-<p>Title: <%= a.title %> </p> 
-<p>Content: <%= a.content %> </p> 
-
-<% end %>
 </form>
